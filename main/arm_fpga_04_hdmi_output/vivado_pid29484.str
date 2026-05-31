@@ -1,0 +1,357 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 29484
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun May 31 01:31:03 PKT 2026
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	D:/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Saad
+User home directory: C:/Users/Saad
+User working directory: C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Vivado
+HDI_APPROOT: D:/Vivado/2021.2
+RDI_DATADIR: D:/Vivado/2021.2/data
+RDI_BINDIR: D:/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/Saad/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/Saad/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/Saad/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	D:/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/vivado.log
+Vivado journal file: 	C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/vivado.jou
+Engine tmp dir: 	C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/.Xil/Vivado-29484-DESKTOP-N4P9TIA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: D:/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: D:/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: D:/Vivado/2021.2
+XILINX_SDK: D:/Vitis/2021.2
+XILINX_VITIS: D:/Vitis/2021.2
+XILINX_VIVADO: D:/Vivado/2021.2
+XILINX_VIVADO_HLS: D:/Vivado/2021.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,375 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 67 MB (+67394kb) [00:00:07]
+// [Engine Memory]: 1,375 MB (+1290570kb) [00:00:07]
+// Opening Vivado Project: C:\Users\Saad\Desktop\echo_Clone\new_echo-main\arm_fpga_04_hdmi_output\arm_fpga_04_hdmi_output.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,375 MB. GUI used memory: 55 MB. Current time: 5/31/26, 1:31:04 AM PKT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Saad/Desktop/echo_Clone/arm_fpga_04_hdmi_output' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 72 MB (+1658kb) [00:00:21]
+// [GUI Memory]: 95 MB (+20338kb) [00:00:21]
+// [GUI Memory]: 100 MB (+784kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  3743 ms.
+// [GUI Memory]: 107 MB (+1822kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  1191 ms.
+// [GUI Memory]: 122 MB (+10102kb) [00:00:24]
+// [GUI Memory]: 133 MB (+4898kb) [00:00:25]
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 1360.973 ; gain = 0.000 
+// Project name: arm_fpga_04_hdmi_output; location: C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output; part: xc7z010clg400-1
+dismissDialog("Open Project"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // n
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file <C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 142 MB (+3151kb) [00:00:32]
+// WARNING: HEventQueue.dispatchEvent() is taking  3030 ms.
+// JavaFX intialization before: 1780173086582
+// JavaFX initialization after: 1780173087355
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1360.973 ; gain = 0.000 
+// 'bW' command handler elapsed time: 7 seconds
+dismissDialog("Open Block Design"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 152 MB (+2782kb) [00:00:38]
+// PAPropertyPanels.initPanels (axis_subset_converter_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// Elapsed time: 47 seconds
+setText("TDATA Remap String", "tdata[23:16],tdata[7:0],tdata[15:8]"); // B
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Re-customize IP"); // r
+// Tcl Command: 'set_property -dict [list CONFIG.TDATA_REMAP {tdata[23:16],tdata[7:0],tdata[15:8]}] [get_bd_cells axis_subset_converter_0]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.TDATA_REMAP {tdata[23:16],tdata[7:0],tdata[15:8]}] [get_bd_cells axis_subset_converter_0] 
+// Tcl Message: endgroup 
+// [GUI Memory]: 164 MB (+4854kb) [00:01:30]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// Elapsed time: 12 seconds
+dismissDialog("Re-customize IP"); // N
+// HMemoryUtils.trashcanNow. Engine heap size: 1,433 MB. GUI used memory: 108 MB. Current time: 5/31/26, 1:32:29 AM PKT
+selectButton("MIO Configuration", "MIO Configuration"); // j
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1, "I/O Peripherals", 0, true); // aR - Node
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1, "I/O Peripherals", 0, true); // aR - Node
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aR
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "ENET 0 ; MIO 16 .. 27 ;  ;  ;  ;  ;  ; ", 2); // aR
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "MDIO ;  ;  ;  ;  ;  ;  ; ", 3, "MDIO", 0, false); // aR
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "MDIO ; EMIO ;  ;  ;  ;  ;  ; ", 3, "EMIO", 1, false); // aR
+selectComboBox("PCW ENET0 GRP MDIO IO (PCW_ENET0_GRP_MDIO_IO)", "MIO 52 .. 53", 1); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 16 ; tx_clk ; LVCMOS 1.8V ; slow ; enabled ; out ; ", 4, "slow", 4, false); // aR
+selectComboBox("PCW MIO 16 SLEW (PCW_MIO_16_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 17 ; txd[0] ; LVCMOS 1.8V ; slow ; enabled ; out ; ", 5, "slow", 4, false); // aR
+selectComboBox("PCW MIO 17 SLEW (PCW_MIO_17_SLEW)", "fast", 0); // E
+selectComboBox("PCW MIO 18 SLEW (PCW_MIO_18_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 19 ; txd[2] ; LVCMOS 1.8V ; slow ; enabled ; out ; ", 7, "slow", 4, false); // aR
+selectComboBox("PCW MIO 19 SLEW (PCW_MIO_19_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 20 ; txd[3] ; LVCMOS 1.8V ; slow ; enabled ; out ; ", 8, "slow", 4, false); // aR
+selectComboBox("PCW MIO 20 SLEW (PCW_MIO_20_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 21 ; tx_ctl ; LVCMOS 1.8V ; slow ; enabled ; out ; ", 9, "slow", 4, false); // aR
+selectComboBox("PCW MIO 21 SLEW (PCW_MIO_21_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 22 ; rx_clk ; LVCMOS 1.8V ; slow ; enabled ; in ; ", 10, "slow", 4, false); // aR
+selectComboBox("PCW MIO 22 SLEW (PCW_MIO_22_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 23 ; rxd[0] ; LVCMOS 1.8V ; slow ; enabled ; in ; ", 11, "slow", 4, false); // aR
+selectComboBox("PCW MIO 23 SLEW (PCW_MIO_23_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 24 ; rxd[1] ; LVCMOS 1.8V ; slow ; enabled ; in ; ", 12, "slow", 4, false); // aR
+selectComboBox("PCW MIO 24 SLEW (PCW_MIO_24_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 25 ; rxd[2] ; LVCMOS 1.8V ; slow ; enabled ; in ; ", 13, "slow", 4, false); // aR
+selectComboBox("PCW MIO 25 SLEW (PCW_MIO_25_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 26 ; rxd[3] ; LVCMOS 1.8V ; slow ; enabled ; in ; ", 14, "slow", 4, false); // aR
+selectComboBox("PCW MIO 26 SLEW (PCW_MIO_26_SLEW)", "fast", 0); // E
+selectTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "Enet 0 ; MIO 27 ; rx_ctl ; LVCMOS 1.8V ; slow ; enabled ; in ; ", 15, "slow", 4, false); // aR
+selectComboBox("PCW MIO 27 SLEW (PCW_MIO_27_SLEW)", "fast", 0); // E
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Re-customize IP"); // r
+// Tcl Command: 'set_property -dict [list CONFIG.PCW_ENET0_GRP_MDIO_ENABLE {1} CONFIG.PCW_ENET0_GRP_MDIO_IO {MIO 52 .. 53} CONFIG.PCW_MIO_16_SLEW {fast} CONFIG.PCW_MIO_17_SLEW {fast} CONFIG.PCW_MIO_18_SLEW {fast} CONFIG.PCW_MIO_19_SLEW {fast} CONFIG.PCW_MIO_20_SLEW {fast} CONFIG.PCW_MIO_21_SLEW {fast} CONFIG.PCW_MIO_22_SLEW {fast} CONFIG.PCW_MIO_23_SLEW {fast} CONFIG.PCW_MIO_24_SLEW {fast} CONFIG.PCW_MIO_25_SLEW {fast} CONFIG.PCW_MIO_26_SLEW {fast} CONFIG.PCW_MIO_27_SLEW {fast}] [get_bd_cells processing_system7_0]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.PCW_ENET0_GRP_MDIO_ENABLE {1} CONFIG.PCW_ENET0_GRP_MDIO_IO {MIO 52 .. 53} CONFIG.PCW_MIO_16_SLEW {fast} CONFIG.PCW_MIO_17_SLEW {fast} CONFIG.PCW_MIO_18_SLEW {fast} CONFIG.PCW_MIO_19_SLEW {fast} CONFIG.PCW_MIO_20_SLEW {fast} CONFIG.PCW_MIO_21_SLEW {fast} CONFIG.PCW_MIO_22_SLEW {fast} CONFIG.PCW_MIO_23_SLEW {fast} CONFIG.PCW_MIO_24_SLEW {fast} CONFIG.PCW_MIO_25_SLEW {fast} CONFIG.PCW_MIO_26_SLEW {fast} CONFIG.PCW_MIO_27_SLEW {fast}] [get_bd_cells processing_system7_0] 
+// Tcl Message: endgroup 
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // D
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// HMemoryUtils.trashcanNow. Engine heap size: 1,471 MB. GUI used memory: 116 MB. Current time: 5/31/26, 1:33:24 AM PKT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: INFO: [xilinx.com:ip:smartconnect:1.0-1] design_1_axi_smc_0: SmartConnect design_1_axi_smc_0 is in High-performance Mode. 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,491 MB (+49641kb) [00:02:35]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1538.547 ; gain = 52.473 
+// Elapsed time: 10 seconds
+dismissDialog("Validate Design"); // bA
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // eh
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 2, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ao
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:\Users\Saad\Desktop\echo_Clone\new_echo-main\arm_fpga_04_hdmi_output\arm_fpga_04_hdmi_output.srcs\sources_1\bd\design_1\design_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 1,699 MB (+139129kb) [00:02:51]
+// Tcl Message: VHDL Output written to : c:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/synth/design_1.v VHDL Output written to : c:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/sim/design_1.v VHDL Output written to : c:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,708 MB. GUI used memory: 118 MB. Current time: 5/31/26, 1:33:44 AM PKT

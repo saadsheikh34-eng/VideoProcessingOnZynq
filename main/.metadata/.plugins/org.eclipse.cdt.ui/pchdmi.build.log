@@ -1,0 +1,30 @@
+21:41:36 **** Incremental Build of configuration Debug for project pchdmi ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/display_demo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.o" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/bspinclude/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building target: pchdmi.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/bsplib/lib -o "pchdmi.elf"  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: pchdmi.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size pchdmi.elf  |tee "pchdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 132635	   3188	3266672	3402495	 33eaff	pchdmi.elf
+'Finished building: pchdmi.elf.size'
+' '
+
+21:41:38 Build Finished (took 1s.657ms)
+

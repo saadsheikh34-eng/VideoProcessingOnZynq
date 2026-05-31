@@ -1,0 +1,1311 @@
+!SESSION 2026-05-31 15:34:46.887 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\Saad\Desktop\echo_Clone\new_echo-main\.metadata\.bak_0.log
+Created Time: 2026-05-31 21:31:36.766
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.767
+!MESSAGE XSCT Command: [version -server], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.767
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.769
+!MESSAGE XSCT Command: [version], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.769
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 1967 on 2021-10-14-04:42:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.771
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.779
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.779
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.803
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.803
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.808
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.808
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.826
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.828
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.834
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.834
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.852
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.852
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.860
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.860
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.876
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.877
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.883
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.883
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.901
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.903
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.907
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.909
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.927
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.929
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.944
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Result: [null, ]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:36.946
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:39.813
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:39.815
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:42.827
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [{Format=no targets found with "name =~"APU*"". available targets:
+  1  xc7z010, Time=1780245102827, Code=1}, ]. Thread: Worker-97: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:55.530
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:55.532
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#35]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:55.532
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:55.542
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:55.542
+!MESSAGE XSCT Command: [version -server], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.228
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.228
+!MESSAGE XSCT Command: [version], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.230
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 1967 on 2021-10-14-04:42:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.230
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.236
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.236
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.259
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.259
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.265
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.265
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.283
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.285
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.293
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.293
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.311
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.313
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.318
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.318
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.340
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.340
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.346
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.346
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.364
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.364
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.370
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.370
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.387
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.389
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.407
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:31:58.407
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:01.278
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:01.280
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:01.293
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:01.293
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:01.353
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:01.355
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.368
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.402
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.410
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.410
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.431
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.431
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.467
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:04.467
+!MESSAGE XSCT Command: [fpga -file C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/bitstream/hdmieth3.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:05.685
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/bitstream/hdmieth3.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:05.721
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:05.737
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:05.737
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.761
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_2]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.761
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.763
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.763
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.775
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.777
+!MESSAGE XSCT Command: [source C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/psinit/ps7_init.tcl], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.791
+!MESSAGE XSCT command with result: [source C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:08.791
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:30.125
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:30.125
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:30.133
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:30.133
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:30.147
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:30.147
+!MESSAGE XSCT Command: [dow C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/Debug/pchdmi.elf], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:36.552
+!MESSAGE XSCT command with result: [dow C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/Debug/pchdmi.elf], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:36.552
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:42.619
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:45.653
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:45.667
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:45.667
+!MESSAGE XSCT Command: [con], Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:32:48.685
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-103: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:29.822
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss ], Thread: Worker-100: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:29.830
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-100: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:29.832
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Thread: Worker-100: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:29.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-100: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-31 21:34:29.836
+!MESSAGE Generating MD5 hash for file: C:\Users\Saad\Desktop\echo_Clone\new_echo-main\pchdmi_hw\export\pchdmi_hw\sw\pchdmi_hw\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:29.838
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Thread: Worker-100: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:29.840
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-100: Build Project
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:34:31.395
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2306)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 23 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:34:38.137
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:34:38.878
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:341)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:427)
+	at org.eclipse.emf.ecore.resource.impl.PlatformResourceURIHandlerImpl$PlatformResourceOutputStream.flush(PlatformResourceURIHandlerImpl.java:134)
+	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.writeAscii(XMLSaveImpl.java:1023)
+	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.save(XMLSaveImpl.java:255)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doSave(XMLResourceImpl.java:389)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.save(ResourceImpl.java:1475)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.save(ResourceImpl.java:1044)
+	at com.xilinx.sdx.core.project.SDXProjectManager.saveProjectSettings(SDXProjectManager.java:428)
+	at com.xilinx.sdx.core.project.SDXProjectManager$2.lambda$0(SDXProjectManager.java:184)
+	at org.eclipse.core.runtime.jobs.Job$1.run(Job.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 32 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:50.119
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss ], Thread: Worker-100: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:50.127
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-100: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:50.127
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Thread: Worker-100: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:50.131
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-100: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-31 21:34:50.133
+!MESSAGE Generating MD5 hash for file: C:\Users\Saad\Desktop\echo_Clone\new_echo-main\pchdmi_hw\export\pchdmi_hw\sw\pchdmi_hw\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:50.133
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Thread: Worker-100: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:34:50.135
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-100: Building Workspace
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:34:51.696
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2306)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 23 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:34:57.555
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:34:58.521
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:341)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:427)
+	at org.eclipse.emf.ecore.resource.impl.PlatformResourceURIHandlerImpl$PlatformResourceOutputStream.flush(PlatformResourceURIHandlerImpl.java:134)
+	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.writeAscii(XMLSaveImpl.java:1023)
+	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.save(XMLSaveImpl.java:255)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doSave(XMLResourceImpl.java:389)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.save(ResourceImpl.java:1475)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.save(ResourceImpl.java:1044)
+	at com.xilinx.sdx.core.project.SDXProjectManager.saveProjectSettings(SDXProjectManager.java:428)
+	at com.xilinx.sdx.core.project.SDXProjectManager$2.lambda$0(SDXProjectManager.java:184)
+	at org.eclipse.core.runtime.jobs.Job$1.run(Job.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 32 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.949
+!MESSAGE XSCT Command: [disconnect tcfchan#35], Thread: Thread-1428
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.951
+!MESSAGE XSCT command with result: [disconnect tcfchan#35], Result: [null, ]. Thread: Thread-1428
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.966
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.972
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#38]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.972
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.984
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.984
+!MESSAGE XSCT Command: [version -server], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.986
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.986
+!MESSAGE XSCT Command: [version], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.988
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 1967 on 2021-10-14-04:42:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.988
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.996
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:33.996
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.019
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.021
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.029
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.029
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.047
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.049
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.065
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.065
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.086
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.086
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.092
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.094
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.120
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.120
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.128
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.128
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.145
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.147
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.153
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.153
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.175
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.177
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.201
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:34.201
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:37.008
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:37.010
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:37.024
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:37.026
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:37.083
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:37.085
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.098
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.119
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.125
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.125
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.143
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.145
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.186
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:40.186
+!MESSAGE XSCT Command: [fpga -file C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/bitstream/hdmieth3.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:41.394
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/bitstream/hdmieth3.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:41.428
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:41.443
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:41.443
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.475
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_2]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.475
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.477
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.477
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.487
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.489
+!MESSAGE XSCT Command: [source C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/psinit/ps7_init.tcl], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.491
+!MESSAGE XSCT command with result: [source C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:35:44.491
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:11.861
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:11.861
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:11.869
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:11.871
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:11.881
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:11.881
+!MESSAGE XSCT Command: [dow C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/Debug/pchdmi.elf], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:18.309
+!MESSAGE XSCT command with result: [dow C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/Debug/pchdmi.elf], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:18.309
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:21.350
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:24.387
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:24.403
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:24.403
+!MESSAGE XSCT Command: [con], Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:36:27.416
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-100: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:41:36.949
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss ], Thread: Worker-103: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:41:36.959
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-103: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:41:36.959
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Thread: Worker-103: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:41:36.963
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.6",
+}]. Thread: Worker-103: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-31 21:41:36.963
+!MESSAGE Generating MD5 hash for file: C:\Users\Saad\Desktop\echo_Clone\new_echo-main\pchdmi_hw\export\pchdmi_hw\sw\pchdmi_hw\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:41:36.965
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Thread: Worker-103: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:41:36.967
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/sw/pchdmi_hw/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-103: Build Project
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:41:38.498
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2306)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 23 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:41:40.270
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2306)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 23 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:41:45.609
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 22 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2026-05-31 21:41:46.596
+!MESSAGE Failed to evaluate: ReferenceExpression [definitionId=org.eclipse.ui.ide.showInDefinition]
+!STACK 0
+org.eclipse.core.runtime.CoreException: Error evaluating Property [org.eclipse.ui.ide.page.activePreferencePage, type=class org.eclipse.swt.widgets.Shell, tester=org.eclipse.ui.internal.ide.handlers.PagePropertyTester@155de8a9]
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:68)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:103)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:55)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:81)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:69)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:25)
+	at org.eclipse.core.internal.expressions.ReferenceExpression.evaluate(ReferenceExpression.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:74)
+	at org.eclipse.ui.internal.services.EvaluationReference.evaluate(EvaluationReference.java:100)
+	at org.eclipse.ui.internal.services.EvaluationService.requestEvaluation(EvaluationService.java:290)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.update(DirtyStateTracker.java:48)
+	at org.eclipse.ui.internal.handlers.DirtyStateTracker.propertyChanged(DirtyStateTracker.java:110)
+	at org.eclipse.ui.part.WorkbenchPart.firePropertyChange(WorkbenchPart.java:124)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor.access$0(LscriptEditor.java:1)
+	at com.xilinx.ide.tools.lscript.ui.LscriptEditor$ResourceChangeListener.resourceChanged(LscriptEditor.java:188)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:341)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:427)
+	at org.eclipse.emf.ecore.resource.impl.PlatformResourceURIHandlerImpl$PlatformResourceOutputStream.flush(PlatformResourceURIHandlerImpl.java:134)
+	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.writeAscii(XMLSaveImpl.java:1023)
+	at org.eclipse.emf.ecore.xmi.impl.XMLSaveImpl.save(XMLSaveImpl.java:255)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doSave(XMLResourceImpl.java:389)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.save(ResourceImpl.java:1475)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.save(ResourceImpl.java:1044)
+	at com.xilinx.sdx.core.project.SDXProjectManager.saveProjectSettings(SDXProjectManager.java:428)
+	at com.xilinx.sdx.core.project.SDXProjectManager$2.lambda$0(SDXProjectManager.java:184)
+	at org.eclipse.core.runtime.jobs.Job$1.run(Job.java:164)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:352)
+	at org.eclipse.swt.widgets.Widget.getData(Widget.java:497)
+	at org.eclipse.ui.internal.ide.handlers.PagePropertyTester.test(PagePropertyTester.java:39)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:65)
+	... 32 more
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.406
+!MESSAGE XSCT Command: [disconnect tcfchan#38], Thread: Thread-1497
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.411
+!MESSAGE XSCT command with result: [disconnect tcfchan#38], Result: [null, ]. Thread: Thread-1497
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.433
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.439
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#40]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.439
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.449
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.449
+!MESSAGE XSCT Command: [version -server], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.451
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2021.2]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.451
+!MESSAGE XSCT Command: [version], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.453
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2021.2.0
+SW Build 1967 on 2021-10-14-04:42:58
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.453
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.460
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.460
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.479
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.480
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.488
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.489
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.513
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.515
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.521
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.521
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.550
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.550
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.556
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.556
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.582
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.582
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.588
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.588
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.604
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.606
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.611
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.611
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.629
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.629
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.647
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2 210251A08870" && level == 0}], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:07.647
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:10.463
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:10.465
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:10.480
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:10.482
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:10.552
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:10.554
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.570
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.591
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.599
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2 210251A08870]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.599
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.619
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.621
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.658
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:13.658
+!MESSAGE XSCT Command: [fpga -file C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/bitstream/hdmieth3.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:17.865
+!MESSAGE XSCT command with result: [fpga -file C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/bitstream/hdmieth3.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:17.899
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:17.916
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:17.916
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.931
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi_hw/export/pchdmi_hw/hw/hdmieth3.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_2]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.931
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.933
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.933
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.945
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.945
+!MESSAGE XSCT Command: [source C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/psinit/ps7_init.tcl], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.949
+!MESSAGE XSCT command with result: [source C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:20.949
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:51.284
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:51.284
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:54.307
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:54.309
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:54.325
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:42:54.325
+!MESSAGE XSCT Command: [dow C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/Debug/pchdmi.elf], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:43:00.740
+!MESSAGE XSCT command with result: [dow C:/Users/Saad/Desktop/echo_Clone/new_echo-main/pchdmi/Debug/pchdmi.elf], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:43:00.740
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:43:03.774
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:43:06.795
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:43:06.807
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:43:06.808
+!MESSAGE XSCT Command: [con], Thread: Worker-82: Launching SystemDebugger_pchdmi_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-31 21:43:09.824
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-82: Launching SystemDebugger_pchdmi_system
