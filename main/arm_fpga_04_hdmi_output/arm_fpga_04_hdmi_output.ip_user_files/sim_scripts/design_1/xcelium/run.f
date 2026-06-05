@@ -228,6 +228,8 @@
   "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
   "../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
   "../../../bd/design_1/sim/design_1.v" \
+  "../../../bd/design_1/ipshared/c378/axis_grayscale.v" \
+  "../../../bd/design_1/ip/design_1_axis_grayscale_0_0/sim/design_1_axis_grayscale_0_0.v" \
 -endlib
 -makelib xcelium_lib/axi_protocol_converter_v2_1_25 \
   "../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/8fe4/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \

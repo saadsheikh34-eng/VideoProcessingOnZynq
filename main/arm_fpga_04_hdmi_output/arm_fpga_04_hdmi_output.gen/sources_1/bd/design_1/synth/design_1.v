@@ -1,7 +1,7 @@
 //Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
-//Date        : Sun May 31 01:33:42 2026
+//Date        : Wed Jun  3 23:25:07 2026
 //Host        : DESKTOP-N4P9TIA running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -9,7 +9,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=22,numReposBlks=16,numNonXlnxBlks=2,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=1,da_clkrst_cnt=9,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=24,numReposBlks=18,numNonXlnxBlks=2,numHierBlks=6,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=6,da_board_cnt=1,da_clkrst_cnt=9,da_ps7_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (DDR_addr,
     DDR_ba,
@@ -100,13 +100,25 @@ module design_1
   wire axi_vdma_0_M_AXI_MM2S_ARREADY;
   wire [2:0]axi_vdma_0_M_AXI_MM2S_ARSIZE;
   wire axi_vdma_0_M_AXI_MM2S_ARVALID;
-  wire [31:0]axi_vdma_0_M_AXI_MM2S_RDATA;
+  wire [63:0]axi_vdma_0_M_AXI_MM2S_RDATA;
   wire axi_vdma_0_M_AXI_MM2S_RLAST;
   wire axi_vdma_0_M_AXI_MM2S_RREADY;
   wire [1:0]axi_vdma_0_M_AXI_MM2S_RRESP;
   wire axi_vdma_0_M_AXI_MM2S_RVALID;
   wire axi_vdma_0_mm2s_introut;
+  wire [23:0]axis_grayscale_0_m_axis_TDATA;
+  wire [2:0]axis_grayscale_0_m_axis_TKEEP;
+  wire axis_grayscale_0_m_axis_TLAST;
+  wire axis_grayscale_0_m_axis_TREADY;
+  wire axis_grayscale_0_m_axis_TUSER;
+  wire axis_grayscale_0_m_axis_TVALID;
+  wire [23:0]axis_sobel_0_m_axis_TDATA;
+  wire axis_sobel_0_m_axis_TLAST;
+  wire axis_sobel_0_m_axis_TREADY;
+  wire axis_sobel_0_m_axis_TUSER;
+  wire axis_sobel_0_m_axis_TVALID;
   wire [23:0]axis_subset_converter_0_M_AXIS_TDATA;
+  wire [2:0]axis_subset_converter_0_M_AXIS_TKEEP;
   wire axis_subset_converter_0_M_AXIS_TLAST;
   wire axis_subset_converter_0_M_AXIS_TREADY;
   wire [0:0]axis_subset_converter_0_M_AXIS_TUSER;
@@ -253,7 +265,6 @@ module design_1
   wire v_axi4s_vid_out_0_vid_io_out_HSYNC;
   wire v_axi4s_vid_out_0_vid_io_out_VSYNC;
   wire v_axi4s_vid_out_0_vtg_ce;
-  wire [0:0]v_tc_0_fsync_out;
   wire v_tc_0_irq;
   wire v_tc_0_vtiming_out_ACTIVE_VIDEO;
   wire v_tc_0_vtiming_out_HBLANK;
@@ -374,7 +385,6 @@ module design_1
         .m_axis_mm2s_tready(axi_vdma_0_M_AXIS_MM2S_TREADY),
         .m_axis_mm2s_tuser(axi_vdma_0_M_AXIS_MM2S_TUSER),
         .m_axis_mm2s_tvalid(axi_vdma_0_M_AXIS_MM2S_TVALID),
-        .mm2s_fsync(v_tc_0_fsync_out),
         .mm2s_introut(axi_vdma_0_mm2s_introut),
         .s_axi_lite_aclk(processing_system7_0_FCLK_CLK0),
         .s_axi_lite_araddr(ps7_0_axi_periph_M00_AXI_ARADDR[8:0]),
@@ -393,10 +403,40 @@ module design_1
         .s_axi_lite_wdata(ps7_0_axi_periph_M00_AXI_WDATA),
         .s_axi_lite_wready(ps7_0_axi_periph_M00_AXI_WREADY),
         .s_axi_lite_wvalid(ps7_0_axi_periph_M00_AXI_WVALID));
+  design_1_axis_grayscale_0_0 axis_grayscale_0
+       (.aclk(processing_system7_0_FCLK_CLK1),
+        .aresetn(xlconstant_0_dout),
+        .m_axis_tdata(axis_grayscale_0_m_axis_TDATA),
+        .m_axis_tkeep(axis_grayscale_0_m_axis_TKEEP),
+        .m_axis_tlast(axis_grayscale_0_m_axis_TLAST),
+        .m_axis_tready(axis_grayscale_0_m_axis_TREADY),
+        .m_axis_tuser(axis_grayscale_0_m_axis_TUSER),
+        .m_axis_tvalid(axis_grayscale_0_m_axis_TVALID),
+        .s_axis_tdata(axis_subset_converter_0_M_AXIS_TDATA),
+        .s_axis_tkeep(axis_subset_converter_0_M_AXIS_TKEEP),
+        .s_axis_tlast(axis_subset_converter_0_M_AXIS_TLAST),
+        .s_axis_tready(axis_subset_converter_0_M_AXIS_TREADY),
+        .s_axis_tuser(axis_subset_converter_0_M_AXIS_TUSER),
+        .s_axis_tvalid(axis_subset_converter_0_M_AXIS_TVALID));
+  design_1_axis_sobel_0_0 axis_sobel_0
+       (.aclk(processing_system7_0_FCLK_CLK1),
+        .aresetn(xlconstant_0_dout),
+        .m_axis_tdata(axis_sobel_0_m_axis_TDATA),
+        .m_axis_tlast(axis_sobel_0_m_axis_TLAST),
+        .m_axis_tready(axis_sobel_0_m_axis_TREADY),
+        .m_axis_tuser(axis_sobel_0_m_axis_TUSER),
+        .m_axis_tvalid(axis_sobel_0_m_axis_TVALID),
+        .s_axis_tdata(axis_grayscale_0_m_axis_TDATA),
+        .s_axis_tkeep(axis_grayscale_0_m_axis_TKEEP),
+        .s_axis_tlast(axis_grayscale_0_m_axis_TLAST),
+        .s_axis_tready(axis_grayscale_0_m_axis_TREADY),
+        .s_axis_tuser(axis_grayscale_0_m_axis_TUSER),
+        .s_axis_tvalid(axis_grayscale_0_m_axis_TVALID));
   design_1_axis_subset_converter_0_0 axis_subset_converter_0
        (.aclk(processing_system7_0_FCLK_CLK1),
         .aresetn(xlconstant_0_dout),
         .m_axis_tdata(axis_subset_converter_0_M_AXIS_TDATA),
+        .m_axis_tkeep(axis_subset_converter_0_M_AXIS_TKEEP),
         .m_axis_tlast(axis_subset_converter_0_M_AXIS_TLAST),
         .m_axis_tready(axis_subset_converter_0_M_AXIS_TREADY),
         .m_axis_tuser(axis_subset_converter_0_M_AXIS_TUSER),
@@ -659,11 +699,11 @@ module design_1
         .aclken(1'b1),
         .aresetn(1'b1),
         .fid(1'b0),
-        .s_axis_video_tdata(axis_subset_converter_0_M_AXIS_TDATA),
-        .s_axis_video_tlast(axis_subset_converter_0_M_AXIS_TLAST),
-        .s_axis_video_tready(axis_subset_converter_0_M_AXIS_TREADY),
-        .s_axis_video_tuser(axis_subset_converter_0_M_AXIS_TUSER),
-        .s_axis_video_tvalid(axis_subset_converter_0_M_AXIS_TVALID),
+        .s_axis_video_tdata(axis_sobel_0_m_axis_TDATA),
+        .s_axis_video_tlast(axis_sobel_0_m_axis_TLAST),
+        .s_axis_video_tready(axis_sobel_0_m_axis_TREADY),
+        .s_axis_video_tuser(axis_sobel_0_m_axis_TUSER),
+        .s_axis_video_tvalid(axis_sobel_0_m_axis_TVALID),
         .vid_active_video(v_axi4s_vid_out_0_vid_io_out_ACTIVE_VIDEO),
         .vid_data(v_axi4s_vid_out_0_vid_io_out_DATA),
         .vid_hsync(v_axi4s_vid_out_0_vid_io_out_HSYNC),
@@ -679,13 +719,16 @@ module design_1
         .vtg_vblank(v_tc_0_vtiming_out_VBLANK),
         .vtg_vsync(v_tc_0_vtiming_out_VSYNC));
   design_1_v_tc_0_0 v_tc_0
-       (.active_video_out(v_tc_0_vtiming_out_ACTIVE_VIDEO),
+       (.active_video_in(1'b0),
+        .active_video_out(v_tc_0_vtiming_out_ACTIVE_VIDEO),
         .clk(axi_dynclk_0_PXL_CLK_O),
         .clken(1'b1),
+        .det_clken(1'b1),
         .fsync_in(1'b0),
-        .fsync_out(v_tc_0_fsync_out),
         .gen_clken(v_axi4s_vid_out_0_vtg_ce),
+        .hblank_in(1'b0),
         .hblank_out(v_tc_0_vtiming_out_HBLANK),
+        .hsync_in(1'b0),
         .hsync_out(v_tc_0_vtiming_out_HSYNC),
         .irq(v_tc_0_irq),
         .resetn(rst_ps7_0_100M_peripheral_aresetn),
@@ -710,7 +753,9 @@ module design_1
         .s_axi_wstrb(ps7_0_axi_periph_M01_AXI_WSTRB),
         .s_axi_wvalid(ps7_0_axi_periph_M01_AXI_WVALID),
         .sof_state(1'b0),
+        .vblank_in(1'b0),
         .vblank_out(v_tc_0_vtiming_out_VBLANK),
+        .vsync_in(1'b0),
         .vsync_out(v_tc_0_vtiming_out_VSYNC));
   design_1_xlconcat_0_0 xlconcat_0
        (.In0(axi_gpio_0_ip2intc_irpt),

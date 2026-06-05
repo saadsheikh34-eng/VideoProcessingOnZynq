@@ -79,3 +79,40 @@ platform generate -domains
 platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth3.xsa}
 platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth3.xsa}
 platform generate -domains 
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth_grayscale.xsa}
+platform generate -domains 
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth3.xsa}
+platform generate -domains 
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/sobel.xsa}
+platform generate -domains 
+platform generate -domains 
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth3.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/sobel.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth3.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth3.xsa}
+platform generate -domains 
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/echo_Clone/new_echo-main/arm_fpga_04_hdmi_output/hdmieth3.xsa}
+platform generate -domains 
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/zynq-video-processing/main/arm_fpga_04_hdmi_output/sobel.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/zynq-video-processing/main/arm_fpga_04_hdmi_output/sobel.xsa}
+platform config -updatehw {C:/Users/Saad/Desktop/zynq-video-processing/main/arm_fpga_04_hdmi_output/sobel.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/zynq-video-processing/main/arm_fpga_04_hdmi_output/hdmieth_grayscale.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/zynq-video-processing/main/hardware_files/sobel.xsa}
+platform generate -domains 
+platform clean
+platform generate
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/sobel.xsa}
+platform generate -domains 

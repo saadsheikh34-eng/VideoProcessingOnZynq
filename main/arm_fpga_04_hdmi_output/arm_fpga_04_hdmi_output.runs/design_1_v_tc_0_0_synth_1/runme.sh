@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Saad/Desktop/echo_Clone/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.runs/design_1_v_tc_0_0_synth_1'
+HD_PWD='C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.runs/design_1_v_tc_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

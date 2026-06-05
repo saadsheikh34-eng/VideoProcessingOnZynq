@@ -1,2 +1,6 @@
-Nothing to build in platform 'pchdmi_hw'
+17:01:21 **** Incremental Build of project pchdmi_hw ****
+buildplatform.bat 55827 pchdmi_hw no_domain_build 
+XSDB Server Channel: tcfchan#1
+
+17:01:24 Build Finished (took 3s.36ms)
 

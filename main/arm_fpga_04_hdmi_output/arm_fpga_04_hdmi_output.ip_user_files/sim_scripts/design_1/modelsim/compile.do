@@ -301,6 +301,8 @@ vlog -work xil_defaultlib  -incr -mfcu "+incdir+../../../../arm_fpga_04_hdmi_out
 "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
 "../../../bd/design_1/ip/design_1_xlconstant_1_0/sim/design_1_xlconstant_1_0.v" \
 "../../../bd/design_1/sim/design_1.v" \
+"../../../bd/design_1/ipshared/c378/axis_grayscale.v" \
+"../../../bd/design_1/ip/design_1_axis_grayscale_0_0/sim/design_1_axis_grayscale_0_0.v" \
 
 vlog -work axi_protocol_converter_v2_1_25  -incr -mfcu "+incdir+../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/3007/hdl" "+incdir+../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/f0b6/hdl/verilog" "+incdir+../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/66be/hdl/verilog" "+incdir+../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/36fa/hdl" "+incdir+../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/8713/hdl" "+incdir+D:/Vivado/2021.2/data/xilinx_vip/include" \
 "../../../../arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/8fe4/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \

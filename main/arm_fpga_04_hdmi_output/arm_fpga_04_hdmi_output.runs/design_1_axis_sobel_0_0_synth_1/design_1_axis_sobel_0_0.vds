@@ -1,0 +1,313 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jun  3 23:25:23 2026
+# Process ID: 12036
+# Current directory: C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.runs/design_1_axis_sobel_0_0_synth_1
+# Command line: vivado.exe -log design_1_axis_sobel_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axis_sobel_0_0.tcl
+# Log file: C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.runs/design_1_axis_sobel_0_0_synth_1/design_1_axis_sobel_0_0.vds
+# Journal file: C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.runs/design_1_axis_sobel_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-N4P9TIA, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16890 MB
+#-----------------------------------------------------------
+source design_1_axis_sobel_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Saad/Desktop/kalman_filter'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Saad/Desktop/sobel'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Saad/Desktop/frame_difference'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/zynq_project/ImageProcessingOnZynq-main/grayscale_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.2/data/ip'.
+Command: synth_design -top design_1_axis_sobel_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23124
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1367.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_sobel_0_0' [c:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ip/design_1_axis_sobel_0_0/synth/design_1_axis_sobel_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'axis_sobel' [c:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/4a0b/sobel.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'axis_sobel' (1#1) [c:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/4a0b/sobel.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_sobel_0_0' (2#1) [c:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ip/design_1_axis_sobel_0_0/synth/design_1_axis_sobel_0_0.v:58]
+WARNING: [Synth 8-7129] Port s_axis_tdata[23] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[22] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[21] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[20] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[19] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[18] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[17] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[16] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[15] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[14] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[13] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[12] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[11] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[10] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[9] in module axis_sobel is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[8] in module axis_sobel is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1367.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1367.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1367.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1367.574 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1370.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1370.184 ; gain = 0.016
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   7 Input   11 Bit       Adders := 2     
+	   4 Input   11 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 9     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---RAMs : 
+	              10K Bit	(1280 X 8 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s_axis_tdata[23] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[22] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[21] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[20] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[19] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[18] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[17] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[16] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[15] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[14] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[13] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[12] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[11] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[10] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[9] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[8] in module design_1_axis_sobel_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name             | RTL Object     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|design_1_axis_sobel_0_0 | inst/line2_reg | 1 K x 8(READ_FIRST)    | W |   | 1 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------------------+----------------+-----------+----------------------+-----------------+
+|Module Name             | RTL Object     | Inference | Size (Depth x Width) | Primitives      | 
++------------------------+----------------+-----------+----------------------+-----------------+
+|design_1_axis_sobel_0_0 | inst/line1_reg | Implied   | 2 K x 8              | RAM256X1S x 40  | 
++------------------------+----------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name             | RTL Object     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|design_1_axis_sobel_0_0 | inst/line2_reg | 1 K x 8(READ_FIRST)    | W |   | 1 K x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------------------+----------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++------------------------+----------------+-----------+----------------------+-----------------+
+|Module Name             | RTL Object     | Inference | Size (Depth x Width) | Primitives      | 
++------------------------+----------------+-----------+----------------------+-----------------+
+|design_1_axis_sobel_0_0 | inst/line1_reg | Implied   | 2 K x 8              | RAM256X1S x 40  | 
++------------------------+----------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/line2_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    18|
+|2     |LUT1      |     3|
+|3     |LUT2      |    14|
+|4     |LUT3      |    44|
+|5     |LUT4      |    37|
+|6     |LUT5      |    27|
+|7     |LUT6      |    43|
+|8     |RAM256X1S |    40|
+|9     |RAMB18E1  |     1|
+|10    |FDRE      |    81|
+|11    |FDSE      |     8|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:35 . Memory (MB): peak = 1370.184 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 1370.184 ; gain = 2.609
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1370.184 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 59 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1370.184 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 40 instances
+
+Synth Design complete, checksum: f066d542
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:45 . Memory (MB): peak = 1370.184 ; gain = 2.609
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.runs/design_1_axis_sobel_0_0_synth_1/design_1_axis_sobel_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axis_sobel_0_0, cache-ID = 19728165c8b669d2
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.runs/design_1_axis_sobel_0_0_synth_1/design_1_axis_sobel_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axis_sobel_0_0_utilization_synth.rpt -pb design_1_axis_sobel_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  3 23:26:20 2026...

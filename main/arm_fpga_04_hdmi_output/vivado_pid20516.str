@@ -150,3 +150,8 @@ dismissDialog("Open Project"); // bA
 selectView(PAResourceOtoP.PAViews_FLOW_NAVIGATOR, "Flow Navigator", 75, 75, 343, 864, false, false, false, true, false); // v - Popup Trigger
 // WARNING: HEventQueue.dispatchEvent() is taking  2181 ms.
 // WARNING: HEventQueue.dispatchEvent() is taking  1201 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 75 MB. Current time: 6/2/26, 1:04:33 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 65 MB. Current time: 6/2/26, 1:34:36 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 64 MB. Current time: 6/2/26, 2:04:38 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 64 MB. Current time: 6/2/26, 2:34:41 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,356 MB. GUI used memory: 64 MB. Current time: 6/2/26, 3:04:44 AM PKT

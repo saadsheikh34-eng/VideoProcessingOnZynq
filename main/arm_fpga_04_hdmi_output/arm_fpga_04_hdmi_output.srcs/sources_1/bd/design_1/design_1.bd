@@ -34,7 +34,9 @@
       "v_tc_0": "",
       "xlconcat_0": "",
       "xlconstant_0": "",
-      "xlconstant_1": ""
+      "xlconstant_1": "",
+      "axis_grayscale_0": "",
+      "axis_sobel_0": ""
     },
     "interface_ports": {
       "HDMI_HPD": {
@@ -839,7 +841,7 @@
         "inst_hier_path": "rgb2dvi_0",
         "parameters": {
           "kClkRange": {
-            "value": "1"
+            "value": "2"
           },
           "kGenerateSerialClk": {
             "value": "false"
@@ -935,23 +937,14 @@
           "c_include_s2mm": {
             "value": "0"
           },
-          "c_m_axi_mm2s_data_width": {
-            "value": "32"
-          },
           "c_mm2s_genlock_mode": {
             "value": "0"
           },
           "c_mm2s_linebuffer_depth": {
             "value": "4096"
           },
-          "c_mm2s_max_burst_length": {
-            "value": "16"
-          },
           "c_num_fstores": {
             "value": "3"
-          },
-          "c_use_mm2s_fsync": {
-            "value": "1"
           }
         },
         "interface_ports": {
@@ -1633,13 +1626,19 @@
         "inst_hier_path": "v_tc_0",
         "parameters": {
           "HAS_INTC_IF": {
+            "value": "false"
+          },
+          "INTERLACE_EN": {
+            "value": "false"
+          },
+          "SYNC_EN": {
+            "value": "false"
+          },
+          "auto_generation_mode": {
             "value": "true"
           },
-          "VIDEO_MODE": {
-            "value": "480p"
-          },
           "enable_detection": {
-            "value": "false"
+            "value": "true"
           }
         }
       },
@@ -1668,6 +1667,18 @@
         "xci_name": "design_1_xlconstant_1_0",
         "xci_path": "ip\\design_1_xlconstant_1_0\\design_1_xlconstant_1_0.xci",
         "inst_hier_path": "xlconstant_1"
+      },
+      "axis_grayscale_0": {
+        "vlnv": "xilinx.com:user:axis_grayscale:1.0",
+        "xci_name": "design_1_axis_grayscale_0_0",
+        "xci_path": "ip\\design_1_axis_grayscale_0_0\\design_1_axis_grayscale_0_0.xci",
+        "inst_hier_path": "axis_grayscale_0"
+      },
+      "axis_sobel_0": {
+        "vlnv": "xilinx.com:user:axis_sobel:1.0",
+        "xci_name": "design_1_axis_sobel_0_0",
+        "xci_path": "ip\\design_1_axis_sobel_0_0\\design_1_axis_sobel_0_0.xci",
+        "inst_hier_path": "axis_sobel_0"
       }
     },
     "interface_nets": {
@@ -1695,10 +1706,22 @@
           "axi_smc/S00_AXI"
         ]
       },
+      "axis_grayscale_0_m_axis": {
+        "interface_ports": [
+          "axis_grayscale_0/m_axis",
+          "axis_sobel_0/s_axis"
+        ]
+      },
+      "axis_sobel_0_m_axis": {
+        "interface_ports": [
+          "axis_sobel_0/m_axis",
+          "v_axi4s_vid_out_0/video_in"
+        ]
+      },
       "axis_subset_converter_0_M_AXIS": {
         "interface_ports": [
-          "v_axi4s_vid_out_0/video_in",
-          "axis_subset_converter_0/M_AXIS"
+          "axis_subset_converter_0/M_AXIS",
+          "axis_grayscale_0/s_axis"
         ]
       },
       "processing_system7_0_DDR": {
@@ -1822,7 +1845,9 @@
           "axi_vdma_0/m_axi_mm2s_aclk",
           "axi_vdma_0/m_axis_mm2s_aclk",
           "axis_subset_converter_0/aclk",
-          "v_axi4s_vid_out_0/aclk"
+          "v_axi4s_vid_out_0/aclk",
+          "axis_grayscale_0/aclk",
+          "axis_sobel_0/aclk"
         ]
       },
       "processing_system7_0_FCLK_RESET0_N": {
@@ -1860,12 +1885,6 @@
           "v_tc_0/gen_clken"
         ]
       },
-      "v_tc_0_fsync_out": {
-        "ports": [
-          "v_tc_0/fsync_out",
-          "axi_vdma_0/mm2s_fsync"
-        ]
-      },
       "v_tc_0_irq": {
         "ports": [
           "v_tc_0/irq",
@@ -1881,7 +1900,9 @@
       "xlconstant_0_dout": {
         "ports": [
           "xlconstant_0/dout",
-          "axis_subset_converter_0/aresetn"
+          "axis_subset_converter_0/aresetn",
+          "axis_grayscale_0/aresetn",
+          "axis_sobel_0/aresetn"
         ]
       },
       "xlconstant_1_dout": {

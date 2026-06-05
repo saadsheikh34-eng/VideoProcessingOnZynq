@@ -116,7 +116,7 @@ BEGIN
       kGenerateSerialClk => false,
       kClkPrimitive => "MMCM",
       kRstActiveHigh => false,
-      kClkRange => 1
+      kClkRange => 2
     )
     PORT MAP (
       TMDS_Clk_p => TMDS_Clk_p,

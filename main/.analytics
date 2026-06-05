@@ -144,3 +144,186 @@ timestamp=[2026-05-31 21:34:50], mode=BUILD, duration=0:00:00.645, duration_ms=6
 timestamp=[2026-05-31 21:34:56], mode=BUILD, duration=0:00:05.849, duration_ms=5849, data={name=pchdmi_system, configuration=Debug, clean_build=false}
 timestamp=[2026-05-31 21:41:38], mode=BUILD, duration=0:00:01.675, duration_ms=1675, data={name=pchdmi, configuration=Debug, clean_build=false}
 timestamp=[2026-05-31 21:41:44], mode=BUILD, duration=0:00:05.850, duration_ms=5850, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-01 14:56:27], mode=WORKBENCH_START, duration=0:00:10.216, duration_ms=10216, data={}
+timestamp=[2026-06-01 14:56:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.908, duration_ms=908, data={editors_count=12, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-01 14:56:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.092, duration_ms=92, data={}
+timestamp=[2026-06-01 21:10:12], mode=WORKBENCH_START, duration=0:00:10.333, duration_ms=10333, data={}
+timestamp=[2026-06-01 21:10:14], mode=WORKBENCH_UI_INIT, duration=0:00:01.296, duration_ms=1296, data={editors_count=12, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-01 21:10:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.236, duration_ms=236, data={}
+timestamp=[2026-06-01 23:28:59], mode=WORKBENCH_START, duration=0:00:11.703, duration_ms=11703, data={}
+timestamp=[2026-06-01 23:29:00], mode=WORKBENCH_UI_INIT, duration=0:00:01.079, duration_ms=1079, data={editors_count=12, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-01 23:29:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.303, duration_ms=303, data={}
+timestamp=[2026-06-01 23:37:10], mode=BUILD, duration=0:00:01.469, duration_ms=1469, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-01 23:37:16], mode=BUILD, duration=0:00:05.943, duration_ms=5943, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-01 23:39:49], mode=BUILD, duration=0:00:00.527, duration_ms=527, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 00:05:34], mode=BUILD, duration=0:00:06.728, duration_ms=6728, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 00:05:40], mode=BUILD, duration=0:00:05.879, duration_ms=5879, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 00:09:16], mode=BUILD, duration=0:00:02.459, duration_ms=2459, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 00:09:21], mode=BUILD, duration=0:00:05.553, duration_ms=5553, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:11:26], mode=BUILD, duration=0:00:01.729, duration_ms=1729, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:11:33], mode=BUILD, duration=0:00:06.497, duration_ms=6497, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:17:40], mode=BUILD, duration=0:00:02.030, duration_ms=2030, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:17:47], mode=BUILD, duration=0:00:06.442, duration_ms=6442, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:20:15], mode=BUILD, duration=0:00:01.655, duration_ms=1655, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:20:21], mode=BUILD, duration=0:00:05.859, duration_ms=5859, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:23:20], mode=BUILD, duration=0:00:01.355, duration_ms=1355, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:24:21], mode=BUILD, duration=0:00:01.789, duration_ms=1789, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:24:28], mode=BUILD, duration=0:00:06.542, duration_ms=6542, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:25:39], mode=BUILD, duration=0:00:01.830, duration_ms=1830, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:25:46], mode=BUILD, duration=0:00:06.663, duration_ms=6663, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:38:13], mode=BUILD, duration=0:00:02.107, duration_ms=2107, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:38:20], mode=BUILD, duration=0:00:06.743, duration_ms=6743, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:38:21], mode=BUILD, duration=0:00:00.593, duration_ms=593, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:38:25], mode=BUILD, duration=0:00:02.818, duration_ms=2818, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:38:26], mode=BUILD, duration=0:00:00.681, duration_ms=681, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:38:33], mode=BUILD, duration=0:00:06.610, duration_ms=6610, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:50:20], mode=WORKBENCH_START, duration=0:00:08.489, duration_ms=8489, data={}
+timestamp=[2026-06-02 01:50:21], mode=WORKBENCH_UI_INIT, duration=0:00:01.022, duration_ms=1022, data={editors_count=12, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-02 01:50:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.071, duration_ms=71, data={}
+timestamp=[2026-06-02 01:58:56], mode=BUILD, duration=0:00:01.956, duration_ms=1956, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 01:59:03], mode=BUILD, duration=0:00:06.260, duration_ms=6260, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 02:25:20], mode=PLATFORM_GENERATION, duration=0:00:03.197, duration_ms=3197, data={name=pchdmi_hw}
+timestamp=[2026-06-02 02:25:24], mode=BUILD, duration=0:00:00.650, duration_ms=650, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 02:25:37], mode=BUILD, duration=0:00:06.527, duration_ms=6527, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 12:47:33], mode=WORKBENCH_START, duration=0:00:10.895, duration_ms=10895, data={}
+timestamp=[2026-06-02 12:47:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.826, duration_ms=826, data={editors_count=12, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-02 12:47:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.187, duration_ms=187, data={}
+timestamp=[2026-06-02 12:56:18], mode=PLATFORM_GENERATION, duration=0:00:06.874, duration_ms=6874, data={name=pchdmi_hw}
+timestamp=[2026-06-02 12:56:20], mode=BUILD, duration=0:00:01.867, duration_ms=1867, data={name=pchdmi, configuration=Debug, clean_build=true}
+timestamp=[2026-06-02 12:56:49], mode=BUILD, duration=0:00:20.515, duration_ms=20515, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 12:57:19], mode=BUILD, duration=0:00:10.026, duration_ms=10026, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 13:34:09], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=pchdmi, configuration=Debug, clean_build=true}
+timestamp=[2026-06-02 13:34:18], mode=BUILD, duration=0:00:08.676, duration_ms=8676, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 13:51:13], mode=BUILD, duration=0:00:01.004, duration_ms=1004, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 13:52:31], mode=BUILD, duration=0:00:02.687, duration_ms=2687, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 13:52:40], mode=BUILD, duration=0:00:08.089, duration_ms=8089, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:03:01], mode=BUILD, duration=0:00:03.264, duration_ms=3264, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:03:11], mode=BUILD, duration=0:00:08.731, duration_ms=8731, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:03:28], mode=BUILD, duration=0:00:00.646, duration_ms=646, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:03:36], mode=BUILD, duration=0:00:07.515, duration_ms=7515, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:08:57], mode=BUILD, duration=0:00:02.400, duration_ms=2400, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:09:04], mode=BUILD, duration=0:00:07.139, duration_ms=7139, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:38:38], mode=BUILD, duration=0:00:02.641, duration_ms=2641, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:38:46], mode=BUILD, duration=0:00:07.328, duration_ms=7328, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:45:56], mode=BUILD, duration=0:00:00.587, duration_ms=587, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:46:04], mode=BUILD, duration=0:00:07.602, duration_ms=7602, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:54:17], mode=BUILD, duration=0:00:02.466, duration_ms=2466, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 14:54:25], mode=BUILD, duration=0:00:07.174, duration_ms=7174, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:21:45], mode=BUILD, duration=0:00:02.722, duration_ms=2722, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:21:51], mode=BUILD, duration=0:00:05.537, duration_ms=5537, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:26:15], mode=BUILD, duration=0:00:01.431, duration_ms=1431, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:26:20], mode=BUILD, duration=0:00:04.760, duration_ms=4760, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:26:21], mode=BUILD, duration=0:00:00.462, duration_ms=462, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:26:27], mode=BUILD, duration=0:00:05.181, duration_ms=5181, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:29:54], mode=BUILD, duration=0:00:02.262, duration_ms=2262, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:30:00], mode=BUILD, duration=0:00:05.421, duration_ms=5421, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:36:17], mode=BUILD, duration=0:00:02.541, duration_ms=2541, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:36:22], mode=BUILD, duration=0:00:05.168, duration_ms=5168, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:40:03], mode=WORKBENCH_START, duration=0:00:07.926, duration_ms=7926, data={}
+timestamp=[2026-06-02 15:40:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.880, duration_ms=880, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-02 15:40:05], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.066, duration_ms=66, data={}
+timestamp=[2026-06-02 15:46:26], mode=BUILD, duration=0:00:02.126, duration_ms=2126, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:46:34], mode=BUILD, duration=0:00:07.005, duration_ms=7005, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:50:37], mode=BUILD, duration=0:00:01.467, duration_ms=1467, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:50:42], mode=BUILD, duration=0:00:05.340, duration_ms=5340, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:57:36], mode=BUILD, duration=0:00:00.482, duration_ms=482, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 15:57:42], mode=BUILD, duration=0:00:05.759, duration_ms=5759, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:00:33], mode=BUILD, duration=0:00:01.671, duration_ms=1671, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:00:40], mode=BUILD, duration=0:00:05.845, duration_ms=5845, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:07:03], mode=BUILD, duration=0:00:01.680, duration_ms=1680, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:07:09], mode=BUILD, duration=0:00:05.743, duration_ms=5743, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:13:14], mode=BUILD, duration=0:00:01.763, duration_ms=1763, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:13:21], mode=BUILD, duration=0:00:06.135, duration_ms=6135, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:17:40], mode=BUILD, duration=0:00:01.490, duration_ms=1490, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-02 16:17:46], mode=BUILD, duration=0:00:05.843, duration_ms=5843, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 13:56:27], mode=WORKBENCH_START, duration=0:00:08.958, duration_ms=8958, data={}
+timestamp=[2026-06-03 13:56:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.760, duration_ms=760, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-03 13:56:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.122, duration_ms=122, data={}
+timestamp=[2026-06-03 14:02:37], mode=BUILD, duration=0:00:01.484, duration_ms=1484, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:02:44], mode=BUILD, duration=0:00:06.461, duration_ms=6461, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:06:50], mode=WORKBENCH_START, duration=0:00:06.875, duration_ms=6875, data={}
+timestamp=[2026-06-03 14:06:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.732, duration_ms=732, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-03 14:06:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.059, duration_ms=59, data={}
+timestamp=[2026-06-03 14:07:22], mode=BUILD, duration=0:00:00.647, duration_ms=647, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:07:28], mode=BUILD, duration=0:00:05.266, duration_ms=5266, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:21:57], mode=BUILD, duration=0:00:00.518, duration_ms=518, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:22:02], mode=BUILD, duration=0:00:05.244, duration_ms=5244, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:22:53], mode=BUILD, duration=0:00:00.451, duration_ms=451, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:22:58], mode=BUILD, duration=0:00:04.915, duration_ms=4915, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:23:55], mode=BUILD, duration=0:00:00.527, duration_ms=527, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:24:00], mode=BUILD, duration=0:00:05.109, duration_ms=5109, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:31:10], mode=WORKBENCH_START, duration=0:00:08.953, duration_ms=8953, data={}
+timestamp=[2026-06-03 14:31:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.792, duration_ms=792, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-03 14:31:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.177, duration_ms=177, data={}
+timestamp=[2026-06-03 14:31:28], mode=BUILD, duration=0:00:01.396, duration_ms=1396, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 14:31:36], mode=BUILD, duration=0:00:06.373, duration_ms=6373, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 23:38:13], mode=WORKBENCH_START, duration=0:00:11.117, duration_ms=11117, data={}
+timestamp=[2026-06-03 23:38:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.880, duration_ms=880, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-03 23:38:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.221, duration_ms=221, data={}
+timestamp=[2026-06-03 23:38:53], mode=PLATFORM_GENERATION, duration=0:00:03.620, duration_ms=3620, data={name=pchdmi_hw}
+timestamp=[2026-06-03 23:38:58], mode=BUILD, duration=0:00:01.542, duration_ms=1542, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-03 23:39:14], mode=BUILD, duration=0:00:07.597, duration_ms=7597, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 11:01:40], mode=WORKBENCH_START, duration=0:00:11.653, duration_ms=11653, data={}
+timestamp=[2026-06-04 11:01:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.858, duration_ms=858, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-04 11:01:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.228, duration_ms=228, data={}
+timestamp=[2026-06-04 11:02:14], mode=PLATFORM_GENERATION, duration=0:00:08.056, duration_ms=8056, data={name=pchdmi_hw}
+timestamp=[2026-06-04 11:02:16], mode=BUILD, duration=0:00:01.492, duration_ms=1492, data={name=pchdmi, configuration=Debug, clean_build=true}
+timestamp=[2026-06-04 11:02:34], mode=BUILD, duration=0:00:15.729, duration_ms=15729, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 11:02:42], mode=BUILD, duration=0:00:07.671, duration_ms=7671, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 11:02:56], mode=PLATFORM_GENERATION, duration=0:00:03.090, duration_ms=3090, data={name=pchdmi_hw}
+timestamp=[2026-06-04 11:03:00], mode=BUILD, duration=0:00:00.772, duration_ms=772, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 11:03:17], mode=BUILD, duration=0:00:07.351, duration_ms=7351, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 11:40:51], mode=PLATFORM_GENERATION, duration=0:00:03.300, duration_ms=3300, data={name=pchdmi_hw}
+timestamp=[2026-06-04 12:46:02], mode=BUILD, duration=0:00:01.596, duration_ms=1596, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 12:46:11], mode=BUILD, duration=0:00:08.003, duration_ms=8003, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:02:26], mode=PLATFORM_GENERATION, duration=0:00:03.388, duration_ms=3388, data={name=pchdmi_hw}
+timestamp=[2026-06-04 14:02:27], mode=BUILD, duration=0:00:00.797, duration_ms=797, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:02:42], mode=BUILD, duration=0:00:07.106, duration_ms=7106, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:34:01], mode=WORKBENCH_START, duration=0:00:08.901, duration_ms=8901, data={}
+timestamp=[2026-06-04 14:34:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.841, duration_ms=841, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-04 14:34:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.288, duration_ms=288, data={}
+timestamp=[2026-06-04 14:34:44], mode=PLATFORM_GENERATION, duration=0:00:05.077, duration_ms=5077, data={name=pchdmi_hw}
+timestamp=[2026-06-04 14:34:47], mode=BUILD, duration=0:00:01.228, duration_ms=1228, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:34:54], mode=BUILD, duration=0:00:05.742, duration_ms=5742, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:35:30], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:35:35], mode=BUILD, duration=0:00:05.172, duration_ms=5172, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:42:40], mode=PLATFORM_GENERATION, duration=0:00:02.353, duration_ms=2353, data={name=pchdmi_hw}
+timestamp=[2026-06-04 14:42:41], mode=BUILD, duration=0:00:00.619, duration_ms=619, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:42:47], mode=BUILD, duration=0:00:06.150, duration_ms=6150, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:44:48], mode=WORKBENCH_START, duration=0:00:10.086, duration_ms=10086, data={}
+timestamp=[2026-06-04 14:44:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.787, duration_ms=787, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-04 14:44:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.089, duration_ms=89, data={}
+timestamp=[2026-06-04 14:48:07], mode=WORKBENCH_START, duration=0:00:09.595, duration_ms=9595, data={}
+timestamp=[2026-06-04 14:48:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.880, duration_ms=880, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-04 14:48:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.255, duration_ms=255, data={}
+timestamp=[2026-06-04 14:48:24], mode=BUILD, duration=0:00:01.243, duration_ms=1243, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-04 14:48:31], mode=BUILD, duration=0:00:05.973, duration_ms=5973, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:22:57], mode=WORKBENCH_START, duration=0:00:15.195, duration_ms=15195, data={}
+timestamp=[2026-06-05 16:22:59], mode=WORKBENCH_UI_INIT, duration=0:00:01.425, duration_ms=1425, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-05 16:22:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.236, duration_ms=236, data={}
+timestamp=[2026-06-05 16:25:04], mode=PLATFORM_GENERATION, duration=0:00:03.589, duration_ms=3589, data={name=pchdmi_hw}
+timestamp=[2026-06-05 16:25:09], mode=BUILD, duration=0:00:01.571, duration_ms=1571, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:25:18], mode=BUILD, duration=0:00:08.240, duration_ms=8240, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:29:30], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:29:38], mode=BUILD, duration=0:00:07.040, duration_ms=7040, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:37:10], mode=PLATFORM_GENERATION, duration=0:00:03.242, duration_ms=3242, data={name=pchdmi_hw}
+timestamp=[2026-06-05 16:37:10], mode=BUILD, duration=0:00:00.691, duration_ms=691, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:37:19], mode=BUILD, duration=0:00:07.864, duration_ms=7864, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:46:00], mode=PLATFORM_GENERATION, duration=0:00:03.912, duration_ms=3912, data={name=pchdmi_hw}
+timestamp=[2026-06-05 16:46:00], mode=BUILD, duration=0:00:00.740, duration_ms=740, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:46:10], mode=BUILD, duration=0:00:08.558, duration_ms=8558, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:50:55], mode=PLATFORM_GENERATION, duration=0:00:03.606, duration_ms=3606, data={name=pchdmi_hw}
+timestamp=[2026-06-05 16:50:56], mode=BUILD, duration=0:00:00.746, duration_ms=746, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:51:05], mode=BUILD, duration=0:00:08.733, duration_ms=8733, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:51:08], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=pchdmi, configuration=Debug, clean_build=true}
+timestamp=[2026-06-05 16:51:21], mode=PLATFORM_GENERATION, duration=0:00:13.179, duration_ms=13179, data={name=pchdmi_hw}
+timestamp=[2026-06-05 16:51:21], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=pchdmi_system, configuration=Debug, clean_build=true}
+timestamp=[2026-06-05 16:52:37], mode=PLATFORM_GENERATION, duration=0:01:15.508, duration_ms=75508, data={name=pchdmi_hw}
+timestamp=[2026-06-05 16:52:49], mode=BUILD, duration=0:00:11.995, duration_ms=11995, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:52:58], mode=BUILD, duration=0:00:08.153, duration_ms=8153, data={name=pchdmi_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 16:59:41], mode=WORKBENCH_START, duration=0:00:10.145, duration_ms=10145, data={}
+timestamp=[2026-06-05 16:59:42], mode=WORKBENCH_UI_INIT, duration=0:00:01.120, duration_ms=1120, data={editors_count=22, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pchdmi,pchdmi_hw,pchdmi_system}
+timestamp=[2026-06-05 16:59:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.123, duration_ms=123, data={}
+timestamp=[2026-06-05 17:01:24], mode=PLATFORM_GENERATION, duration=0:00:03.383, duration_ms=3383, data={name=pchdmi_hw}
+timestamp=[2026-06-05 17:01:28], mode=BUILD, duration=0:00:00.803, duration_ms=803, data={name=pchdmi, configuration=Debug, clean_build=false}
+timestamp=[2026-06-05 17:01:38], mode=BUILD, duration=0:00:08.590, duration_ms=8590, data={name=pchdmi_system, configuration=Debug, clean_build=false}

@@ -1,10 +1,10 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
--- Date        : Sat May 30 19:16:07 2026
+-- Date        : Sun May 31 00:47:33 2026
 -- Host        : DESKTOP-N4P9TIA running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/Saad/Desktop/echo_Clone/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ip/design_1_axi_dynclk_0_0/design_1_axi_dynclk_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_axi_dynclk_0_0 -prefix
+--               design_1_axi_dynclk_0_0_ design_1_axi_dynclk_0_0_sim_netlist.vhdl
 -- Design      : design_1_axi_dynclk_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -52,8 +52,6 @@ entity design_1_axi_dynclk_0_0_axi_dynclk_S00_AXI is
     s00_axi_araddr : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s00_axi_wstrb : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_dynclk_0_0_axi_dynclk_S00_AXI : entity is "axi_dynclk_S00_AXI";
 end design_1_axi_dynclk_0_0_axi_dynclk_S00_AXI;
 
 architecture STRUCTURE of design_1_axi_dynclk_0_0_axi_dynclk_S00_AXI is
@@ -4678,8 +4676,6 @@ entity design_1_axi_dynclk_0_0_mmcme2_drp is
     \rom_do_reg[10]_2\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     SR : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_dynclk_0_0_mmcme2_drp : entity is "mmcme2_drp";
 end design_1_axi_dynclk_0_0_mmcme2_drp;
 
 architecture STRUCTURE of design_1_axi_dynclk_0_0_mmcme2_drp is
@@ -6317,8 +6313,6 @@ entity design_1_axi_dynclk_0_0_axi_dynclk is
     s00_axi_bready : in STD_LOGIC;
     s00_axi_rready : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_axi_dynclk_0_0_axi_dynclk : entity is "axi_dynclk";
 end design_1_axi_dynclk_0_0_axi_dynclk;
 
 architecture STRUCTURE of design_1_axi_dynclk_0_0_axi_dynclk is

@@ -9,7 +9,7 @@
 /*  Module Description: 												*/
 /*																		*/
 /*		This file contains the definition of the VideoMode type, and	*/
-/*		also defines several common video modes							*/
+/*		alzso defines several common video modes							*/
 /*																		*/
 /************************************************************************/
 /*  Revision History:													*/

@@ -1,10 +1,10 @@
 -- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
--- Date        : Sat May 30 18:23:52 2026
+-- Date        : Sun May 31 00:55:51 2026
 -- Host        : DESKTOP-N4P9TIA running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               c:/Users/Saad/Desktop/echo_Clone/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_v_axi4s_vid_out_0_0 -prefix
+--               design_1_v_axi4s_vid_out_0_0_ design_1_v_axi4s_vid_out_0_0_sim_netlist.vhdl
 -- Design      : design_1_v_axi4s_vid_out_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -38,8 +38,6 @@ entity design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_formatter is
     E : in STD_LOGIC_VECTOR ( 0 to 0 );
     D : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_formatter : entity is "v_axi4s_vid_out_v4_0_13_formatter";
 end design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_formatter;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_formatter is
@@ -477,8 +475,6 @@ entity design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_sync is
     \FSM_sequential_state[0]_i_2_1\ : in STD_LOGIC;
     \FSM_sequential_state[0]_i_2_2\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_sync : entity is "v_axi4s_vid_out_v4_0_13_sync";
 end design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_sync;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_sync is
@@ -4334,8 +4330,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_cdc_gray is
   attribute DEST_SYNC_FF of design_1_v_axi4s_vid_out_0_0_xpm_cdc_gray : entity is 4;
   attribute INIT_SYNC_FF : integer;
   attribute INIT_SYNC_FF of design_1_v_axi4s_vid_out_0_0_xpm_cdc_gray : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_cdc_gray : entity is "xpm_cdc_gray";
   attribute REG_OUTPUT : integer;
   attribute REG_OUTPUT of design_1_v_axi4s_vid_out_0_0_xpm_cdc_gray : entity is 0;
   attribute SIM_ASSERT_CHK : integer;
@@ -8438,8 +8432,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_cdc_single is
   attribute DEST_SYNC_FF of design_1_v_axi4s_vid_out_0_0_xpm_cdc_single : entity is 4;
   attribute INIT_SYNC_FF : integer;
   attribute INIT_SYNC_FF of design_1_v_axi4s_vid_out_0_0_xpm_cdc_single : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_cdc_single : entity is "xpm_cdc_single";
   attribute SIM_ASSERT_CHK : integer;
   attribute SIM_ASSERT_CHK of design_1_v_axi4s_vid_out_0_0_xpm_cdc_single : entity is 0;
   attribute SRC_INPUT_REG : integer;
@@ -8615,8 +8607,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_cdc_sync_rst is
   attribute INIT of design_1_v_axi4s_vid_out_0_0_xpm_cdc_sync_rst : entity is "0";
   attribute INIT_SYNC_FF : integer;
   attribute INIT_SYNC_FF of design_1_v_axi4s_vid_out_0_0_xpm_cdc_sync_rst : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_cdc_sync_rst : entity is "xpm_cdc_sync_rst";
   attribute SIM_ASSERT_CHK : integer;
   attribute SIM_ASSERT_CHK of design_1_v_axi4s_vid_out_0_0_xpm_cdc_sync_rst : entity is 0;
   attribute VERSION : integer;
@@ -8814,8 +8804,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_counter_updn is
     \count_value_i_reg[1]_1\ : in STD_LOGIC;
     rd_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_counter_updn : entity is "xpm_counter_updn";
 end design_1_v_axi4s_vid_out_0_0_xpm_counter_updn;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_xpm_counter_updn is
@@ -11013,8 +11001,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_bit is
     \count_value_i_reg[3]\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     \count_value_i_reg[3]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_bit : entity is "xpm_fifo_reg_bit";
 end design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_bit;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_bit is
@@ -11109,8 +11095,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_vec is
     D : in STD_LOGIC_VECTOR ( 11 downto 0 );
     wr_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_vec : entity is "xpm_fifo_reg_vec";
 end design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_vec;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_xpm_fifo_reg_vec is
@@ -12385,8 +12369,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_memory_base is
   attribute MESSAGE_CONTROL of design_1_v_axi4s_vid_out_0_0_xpm_memory_base : entity is 0;
   attribute NUM_CHAR_LOC : integer;
   attribute NUM_CHAR_LOC of design_1_v_axi4s_vid_out_0_0_xpm_memory_base : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_memory_base : entity is "xpm_memory_base";
   attribute P_ECC_MODE : string;
   attribute P_ECC_MODE of design_1_v_axi4s_vid_out_0_0_xpm_memory_base : entity is "no_ecc";
   attribute P_ENABLE_BYTE_WRITE_A : integer;
@@ -13296,8 +13278,6 @@ entity design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_cdc_single is
     src_in : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_cdc_single : entity is "v_axi4s_vid_out_v4_0_13_cdc_single";
 end design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_cdc_single;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_cdc_single is
@@ -13383,8 +13363,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_fifo_rst is
     rd_en : in STD_LOGIC;
     Q : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_fifo_rst : entity is "xpm_fifo_rst";
 end design_1_v_axi4s_vid_out_0_0_xpm_fifo_rst;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_xpm_fifo_rst is
@@ -13960,8 +13938,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_fifo_base is
   attribute FULL_RESET_VALUE of design_1_v_axi4s_vid_out_0_0_xpm_fifo_base : entity is 1;
   attribute FULL_RST_VAL : string;
   attribute FULL_RST_VAL of design_1_v_axi4s_vid_out_0_0_xpm_fifo_base : entity is "1'b1";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_fifo_base : entity is "xpm_fifo_base";
   attribute PE_THRESH_ADJ : integer;
   attribute PE_THRESH_ADJ of design_1_v_axi4s_vid_out_0_0_xpm_fifo_base : entity is 8;
   attribute PE_THRESH_MAX : integer;
@@ -15475,8 +15451,6 @@ entity design_1_v_axi4s_vid_out_0_0_xpm_fifo_async is
   attribute FIFO_WRITE_DEPTH of design_1_v_axi4s_vid_out_0_0_xpm_fifo_async : entity is 4096;
   attribute FULL_RESET_VALUE : integer;
   attribute FULL_RESET_VALUE of design_1_v_axi4s_vid_out_0_0_xpm_fifo_async : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_xpm_fifo_async : entity is "xpm_fifo_async";
   attribute PROG_EMPTY_THRESH : integer;
   attribute PROG_EMPTY_THRESH of design_1_v_axi4s_vid_out_0_0_xpm_fifo_async : entity is 10;
   attribute PROG_FULL_THRESH : integer;
@@ -15707,8 +15681,6 @@ entity design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_fifo_async is
     dest_out : in STD_LOGIC;
     aclken : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_fifo_async : entity is "v_axi4s_vid_out_v4_0_13_fifo_async";
 end design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_fifo_async;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_fifo_async is
@@ -15996,8 +15968,6 @@ entity design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_coupler is
     dest_out : in STD_LOGIC;
     aclken : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_coupler : entity is "v_axi4s_vid_out_v4_0_13_coupler";
 end design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_coupler;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13_coupler is
@@ -16114,8 +16084,6 @@ entity design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13 is
   attribute C_VTG_MASTER_SLAVE of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13 : entity is 1;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13 : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13 : entity is "v_axi4s_vid_out_v4_0_13";
 end design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13;
 
 architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0_v_axi4s_vid_out_v4_0_13 is
@@ -16373,13 +16341,13 @@ architecture STRUCTURE of design_1_v_axi4s_vid_out_0_0 is
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of aclk : signal is "xilinx.com:signal:clock:1.0 aclk_intf CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of aclk : signal is "XIL_INTERFACENAME aclk_intf, ASSOCIATED_BUSIF video_in, FREQ_HZ 1.42857e+08, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK1, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of aclk : signal is "XIL_INTERFACENAME aclk_intf, ASSOCIATED_BUSIF video_in, FREQ_HZ 142857132, FREQ_TOLERANCE_HZ 0, PHASE 0.000, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK1, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of aclken : signal is "xilinx.com:signal:clockenable:1.0 aclken_intf CE";
   attribute X_INTERFACE_PARAMETER of aclken : signal is "XIL_INTERFACENAME aclken_intf, POLARITY ACTIVE_HIGH";
   attribute X_INTERFACE_INFO of aresetn : signal is "xilinx.com:signal:reset:1.0 aresetn_intf RST";
   attribute X_INTERFACE_PARAMETER of aresetn : signal is "XIL_INTERFACENAME aresetn_intf, POLARITY ACTIVE_LOW, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of s_axis_video_tlast : signal is "xilinx.com:interface:axis:1.0 video_in TLAST";
-  attribute X_INTERFACE_PARAMETER of s_axis_video_tlast : signal is "XIL_INTERFACENAME video_in, TDATA_NUM_BYTES 3, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 1, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 1.42857e+08, PHASE 0.000, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK1, LAYERED_METADATA undef, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of s_axis_video_tlast : signal is "XIL_INTERFACENAME video_in, TDATA_NUM_BYTES 3, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 1, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 142857132, PHASE 0.000, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK1, LAYERED_METADATA undef, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of s_axis_video_tready : signal is "xilinx.com:interface:axis:1.0 video_in TREADY";
   attribute X_INTERFACE_INFO of s_axis_video_tuser : signal is "xilinx.com:interface:axis:1.0 video_in TUSER";
   attribute X_INTERFACE_INFO of s_axis_video_tvalid : signal is "xilinx.com:interface:axis:1.0 video_in TVALID";
