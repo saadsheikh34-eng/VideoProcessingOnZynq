@@ -3,7 +3,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_pchdmi-Default,org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_pchdmi_system
 eclipse.preferences.version=1
-org.eclipse.launchbar.core.descriptorType.default\:Debugger_pchdmi-Default/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Debugger_pchdmi-Default/activeLaunchMode=embrun
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_pchdmi-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_pchdmi_system/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_pchdmi_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

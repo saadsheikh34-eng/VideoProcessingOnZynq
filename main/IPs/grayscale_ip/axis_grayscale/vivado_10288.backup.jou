@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr 20 11:56:58 2026
+# Process ID: 10288
+# Current directory: C:/Users/usama/Desktop/18-4-2026/grayscale_ip/axis_grayscale
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10444 C:\Users\usama\Desktop\18-4-2026\grayscale_ip\axis_grayscale\axis_grayscale.xpr
+# Log file: C:/Users/usama/Desktop/18-4-2026/grayscale_ip/axis_grayscale/vivado.log
+# Journal file: C:/Users/usama/Desktop/18-4-2026/grayscale_ip/axis_grayscale\vivado.jou
+# Running On: DESKTOP-BI3T7CJ, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/usama/Desktop/18-4-2026/grayscale_ip/axis_grayscale/axis_grayscale.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source axis_grayscale.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1

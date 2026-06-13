@@ -1,0 +1,4 @@
+Running: xsim.dir/axis_grayscale_behav/xsimk.exe -simmode gui -wdb axis_grayscale_behav.wdb -simrunnum 0 -socket 55968
+Design successfully loaded
+Design Loading Memory Usage: 7808 KB (Peak: 7808 KB)
+Design Loading CPU Usage: 30 ms

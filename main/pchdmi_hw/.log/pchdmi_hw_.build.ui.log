@@ -1,6 +1,9 @@
-2026-06-05T17:01:21.394906400255-17:01:21 **** Incremental Build of project pchdmi_hw ****
-000-buildplatform.bat 55827 pchdmi_hw no_domain_build 
+2026-06-09T22:24:24.326010200255-22:24:24 **** Incremental Build of project pchdmi_hw ****
+000-buildplatform.bat 58917 pchdmi_hw no_domain_build 
+000-INFO: [Hsi 55-2053] elapsed time for repository (D:/Vitis/2021.2/data/embeddedsw) loading 10 seconds
+000-hsi::set_repo_path: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1147.719 ; gain = 0.648
+000-Reading the platform  : "pchdmi_hw"
 000-XSDB Server Channel: tcfchan#1
 00255-
-17:01:24 Build Finished (took 3s.36ms)
+22:24:32 Build Finished (took 7s.969ms)
 

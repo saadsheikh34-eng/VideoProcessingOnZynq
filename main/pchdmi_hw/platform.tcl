@@ -116,3 +116,9 @@ platform generate
 platform active {pchdmi_hw}
 platform config -updatehw {C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/sobel.xsa}
 platform generate -domains 
+platform generate -domains 
+platform generate
+platform active {pchdmi_hw}
+platform config -updatehw {C:/Users/Saad/Desktop/arm_fpga_04_hdmi_output/hdmieth3.xsa}
+platform generate -domains 
+platform generate -domains 
